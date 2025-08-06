@@ -21,7 +21,7 @@ public class Main {
             System.out.print("Enter your choice (1-5): ");
 
             int choice = sc.nextInt();
-            sc.nextLine(); // consume leftover newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -71,10 +71,7 @@ public class Main {
                     } else {
                         System.out.println("--- All Contacts ---");
                         for (ContactBookEntity c : cbm) {
-                            System.out.println("Contact ID: " + c.getContactid() +
-                                               ", Name: " + c.getname() +
-                                               ", Phone: " + c.getphone() +
-                                               ", Email: " + c.getEmail());
+                            System.out.println("Contact ID: " + c.getContactid() + ", Name: " + c.getname()  ", Phone: " + c.getphone() +", Email: " + c.getEmail());
                         }
                     }
                     break;
