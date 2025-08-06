@@ -14,7 +14,7 @@ public class HibernateUtil {
 		}
 		catch(Throwable e) 
 		{
-		    e.printStackTrace(); // or use a logger
+		    e.printStackTrace(); 
 		    throw new ExceptionInInitializerError(e);
 		}
 
