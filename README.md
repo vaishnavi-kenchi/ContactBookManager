@@ -33,6 +33,7 @@ A Java-based contact management application built with Hibernate JPA for efficie
 
 ## 📬 Contact
 
-**Name**: Vaishnavi Kenchi  
-**Email**: [kenchivaishnavi2605@gmail.com](mailto:kenchivaishnavi2605@gmail.com)
+Name: Vaishnavi Kenchi  
+Email: kenchivaishnavi2605@gmail.com
+
 
